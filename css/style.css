@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 :root {
-    --primary: #FF3E41;
-    --secondary: #51CFED;
+    --primary: #b82828;
+    --secondary: #2858a2;
     --light: #F8F2F0;
     --dark: #060315;
 }
@@ -80,17 +80,16 @@
     margin-left: 8px;
 }
 .navbar {
-    background-color: #2858a2;
+    background: linear-gradient(rgba(40, 88, 162, 1), rgba(40, 88, 162, 1))
 }
 
-.navbar-bar{
+.navbar-toggler {
+    border: 0px solid black;
+}
+.navbar-toggler-icon{
     color: white;
 }
 
-.navbar-brand {
-    width: 18%;
-    height: auto;
-}
 
 .navbar-light .navbar-nav .nav-link {
     position: relative;
@@ -100,6 +99,10 @@
     font-size: 15px;
     text-transform: uppercase;
     outline: none;    
+}
+
+.navbar-toggler-icon {
+    color: white;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
@@ -177,6 +180,10 @@
         opacity: 1;
     }
 }
+.navbar-brand {
+    width: 18%;
+}
+
 
 
 /*** Header ***/
@@ -247,7 +254,9 @@
     color: var(--light);
 }
 
-
+.color-white {
+    color: white;
+}
 /*** About ***/
 @media (min-width: 992px) {
     .container.about {
@@ -438,7 +447,7 @@
 
 /*** Footer ***/
 .footer {
-    background: linear-gradient(rgba(6, 3, 21, .5), rgba(6, 3, 21, .5)), url(../img/map.png) center center no-repeat;
+    background: linear-gradient(rgba(40, 88, 162, .5), rgba(40, 88, 162, .5)), url(../img/map.png) center center no-repeat;
     background-size: cover;
 }
 
