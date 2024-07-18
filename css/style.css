@@ -546,7 +546,8 @@
     .slider{
         background-position: center;
         background-size: cover;
-        height: 90vh;
+        width: 100%;
+        height: auto;
     }
     .slider1 {
         background-image: url(../img/slider-1.jpg);
