@@ -6,6 +6,31 @@
     --dark: #060315;
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+}
+
+h2 {
+    font-family: "barlow", sans-serif;
+    font-size: 28px;
+}
+
 .fw-medium {
     font-weight: 600 !important;
 }
@@ -306,6 +331,10 @@
 
 
 /*** Service, Price & Team ***/
+.service-item {
+    height: 500px;
+}
+
 .service-item,
 .price-item,
 .team-item {
@@ -514,8 +543,118 @@
 .item {
     background-image: url(../img/logo-cliente.png);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     height: 100px;
+}
+.cliente1{
+    background-image: url(../img/logos-empresas/ALZ\ Agro.jpg);    
+}
+.cliente2{
+    background-image: url(../img/logos-empresas/ARMONIA.jpg);    
+}
+.cliente3{
+    background-image: url(../img/logos-empresas/ASPEN\ FORD.jpg);    
+}
+.cliente4{
+    background-image: url(../img/logos-empresas/ASTILLERO\ RIO\ PARANA\ SUR\ 2.png);    
+}
+.cliente5{
+    background-image: url(../img/logos-empresas/brenntag\ logo.jpg);    
+}
+.cliente6{
+    background-image: url(../img/logos-empresas/Cantera\ Cerro\ Negro.jpg);    
+}
+.cliente7{
+    background-image: url(../img/logos-empresas/CHACRAS\ DE\ LA\ RESERVA.jpg);    
+}
+.cliente8{
+    background-image: url(../img/logos-empresas/Colegio-Siglo-XXI_en-Campana_GBA-650x464.jpg);    
+}
+.cliente9{
+    background-image: url(../img/logos-empresas/COMEVA\ VTV.jpg);    
+}
+.cliente10{
+    background-image: url(../img/logos-empresas/COUNTRY\ WEEK\ END.jpg);    
+}
+.cliente11{
+    background-image: url(../img/logos-empresas/DELTA\ ARENAS.jpg);    
+}
+.cliente12{
+    background-image: url(../img/logos-empresas/DEM\ SA.jpg);    
+}
+.cliente13{
+    background-image: url(../img/logos-empresas/Doña\ Sara.jpg);    
+}
+.cliente14{
+    background-image: url(../img/logos-empresas/EITTOR.jpg);    
+}
+.cliente15{
+    background-image: url(../img/logos-empresas/ESTANCIA\ LAS\ PALMAS.jpg);    
+}
+.cliente16{
+    background-image: url(../img/logos-empresas/FARMACIA\ RIVADAVIA.jpg);    
+}
+.cliente17{
+    background-image: url(../img/logos-empresas/FARMATEL.jpg);    
+}
+.cliente18{
+    background-image: url(../img/logos-empresas/GREIF.jpg);    
+}
+.cliente19{
+    background-image: url(../img/logos-empresas/GRUPO\ BCA\ 2.jpg);    
+}
+.cliente20{
+    background-image: url(../img/logos-empresas/HOLLIDAY-SCOTT.jpg);    
+}
+.cliente21{
+    background-image: url(../img/logos-empresas/Indu\ Química.jpg);    
+}
+.cliente22{
+    background-image: url(../img/logos-empresas/Logo-GTS.jpg);    
+}
+.cliente23{
+    background-image: url(../img/logos-empresas/logo_sinea_principal.jpg);    
+}
+.cliente24{
+    background-image: url(../img/logos-empresas/MASTERBUS.jpg);    
+}
+.cliente25{
+    background-image: url(../img/logos-empresas/Netafim-Logo-with-Tag.jpg);    
+}
+.cliente26{
+    background-image: url(../img/logos-empresas/p\ panal\ logo.jpg);    
+}
+.cliente27{
+    background-image: url(../img/logos-empresas/PADILLA.jpg);    
+}
+.cliente28{
+    background-image: url(../img/logos-empresas/PARQUE\ PARANA\ DE\ LAS\ PALMAS.jpg);    
+}
+.cliente29{
+    background-image: url(../img/logos-empresas/QUALITA\ SERVICIOS\ ESPECIALES\ 2.jpg);    
+}
+.cliente30{
+    background-image: url(../img/logos-empresas/RECOVERING.jpg);    
+}
+.cliente31{
+    background-image: url(../img/logos-empresas/sintermetal\ logo.jpg);    
+}
+.cliente32{
+    background-image: url(../img/logos-empresas/TOYOTA\ BOSHOKU.jpg);    
+}
+.cliente33{
+    background-image: url(../img/logos-empresas/ZAPLAST.jpg);    
+}
+
+
+
+.img-about {
+    width: 100%;
+    height: 80vh;
+    background-image: url(../img/about_2.jpg);
+    background-position: center;
+    background-size: cover;
 }
 .slider{
     background-position: top;
@@ -547,7 +686,7 @@
         background-position: center;
         background-size: cover;
         width: 100%;
-        height: auto;
+        height: 80vh;
     }
     .slider1 {
         background-image: url(../img/slider-1.jpg);
