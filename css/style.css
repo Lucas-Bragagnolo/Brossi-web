@@ -481,6 +481,12 @@ h2 {
     background-size: cover;
 }
 
+.contacto-footer{
+    color: white;
+    font-weight: 200;
+    font-size: 25px;
+}
+
 .footer .btn.btn-social {
     margin-right: 5px;
     width: 35px;
