@@ -23,7 +23,7 @@
 
 body {
     font-family: "Montserrat", sans-serif;
-    font-weight: normal;
+    font-weight: normal;    
     background-color: #FFFFFF;
 }
 
@@ -475,6 +475,7 @@ h2 {
 }
 
 
+
 /*** Footer ***/
 .footer {
     background: linear-gradient(rgba(40, 88, 162, .5), rgba(40, 88, 162, .5))git;
@@ -728,6 +729,27 @@ h2 {
     border-radius: 50%;
 }
 
-body {
-    background-color: #FFFFFF;
+
+
+.floating-button a {
+    position: fixed;
+    bottom: 100px;
+    right: 40px;
+    width: 60px;
+    height: 60px;
+    background-color: #25d366; /* Color de WhatsApp */
+    color : white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    transition: 0.3s;
+    font-size: 25px;
+}
+
+.floating-button a:hover {
+    background-color: #128c7e; /* Color de WhatsApp más oscuro al pasar el cursor */
+    transform: scale(1.1);
 }
