@@ -817,3 +817,44 @@ h2 {
     outline-offset: 2px;
 }
 
+.image-text-wrapper {
+    display: flex;
+    align-items: flex-start; /* Alinea la imagen y el texto al inicio */
+    gap: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.rounded-image {
+    width: 100%;
+    border-radius: 50%; /* Hace la imagen completamente redonda */
+    object-fit: cover; /* Asegura que la imagen se ajuste al contenedor sin distorsión */
+    flex-shrink: 0; /* Evita que la imagen se reduzca si no hay espacio suficiente */
+}
+
+
+.lista-servicio-seguimiento {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.lista-servicio-seguimiento li {
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    border-left: 4px solid var(--bs-primary);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.lista-servicio-seguimiento li:hover {
+    transform: translateX(5px);
+    background-color: #f0f1f2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.lista-servicio-seguimiento li:active {
+    transform: translateX(2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
