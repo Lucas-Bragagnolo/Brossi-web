@@ -38,6 +38,10 @@ h2,h3,h4 {
     font-style: normal;
 }
 
+.texto-con-negritas strong {
+    font-weight: bolder;
+}
+
 .fw-medium {
     font-weight: 600 !important;
 }
