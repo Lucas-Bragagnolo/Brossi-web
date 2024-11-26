@@ -38,6 +38,13 @@ h2,h3,h4 {
     font-style: normal;
 }
 
+h3{
+    font-size: 20px;
+}
+p{
+    font-size: 14px;
+}
+
 .texto-con-negritas strong {
     font-weight: bolder;
 }
@@ -680,22 +687,22 @@ h2 {
     height: 90vh;
 }
 .slider1 {
-    background-image: url(../img/slider/1c.jpg);
+    background-image: url(../img/slider/1t.jpg);
 }
 .slider2 {
-    background-image: url(../img/slider/2c.jpg);
+    background-image: url(../img/slider/2t.jpg);
 }
 .slider3 {
-    background-image: url(../img/slider/3c.jpg);
+    background-image: url(../img/slider/3t.jpg);
 }
 .slider4 {
-    background-image: url(../img/slider/4c.jpg);
+    background-image: url(../img/slider/4t.jpg);
 }
 .slider5 {
-    background-image: url(../img/slider/5c.jpg);
+    background-image: url(../img/slider/5t.jpg);
 }
 .slider6 {
-    background-image: url(../img/slider/6c.jpg);
+    background-image: url(../img/slider/6t.jpg);
 }
 
 @media only screen and (min-width: 768px) {
