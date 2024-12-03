@@ -693,22 +693,22 @@ h2 {
     height: 90vh;
 }
 .slider1 {
-    background-image: url(../img/slider/8.jpg);
+    background-image: url(../img/slider/1celu.jpg);
 }
 .slider2 {
-    background-image: url(../img/slider/2t.jpg);
+    background-image: url(../img/slider/2celu.jpg);
 }
 .slider3 {
-    background-image: url(../img/slider/3t.jpg);
+    background-image: url(../img/slider/3celu.jpg);
 }
 .slider4 {
-    background-image: url(../img/slider/4t.jpg);
+    background-image: url(../img/slider/4celu.jpg);
 }
 .slider5 {
-    background-image: url(../img/slider/5t.jpg);
+    background-image: url(../img/slider/5celu.jpg);
 }
 .slider6 {
-    background-image: url(../img/slider/6t.jpg);
+    background-image: url(../img/slider/6celu.jpg);
 }
 
 @media only screen and (min-width: 768px) {
